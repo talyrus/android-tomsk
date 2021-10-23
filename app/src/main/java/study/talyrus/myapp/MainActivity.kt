@@ -8,4 +8,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    fun main() {
+        val one:String="1"
+        one.toInt()
+        print("!!!!!!!!!! " + 1+1)
+
+    }
 }
